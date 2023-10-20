@@ -8,18 +8,20 @@
 - Create folders **'images'** and **'edited-images'** inside the same directory as the main.py file.
 
 <p align=center>
-<img src="image-editor-lite-readme-folder-image.png" alt="Folder structure">
+<img src="image-editor-lite-readme-folder-edited-images.png" alt="Folder structure">
 </p>
 
 - Add the images that need to be resized to the 'images' folder
 
-<img src="image-editor-lite-readme-add-images.png" alt="Folder structure">
+<p align=center>
+<img src="image-editor-lite-readme-folder-add-images.png" alt="Folder structure">
 </p>
 
 - Run the program using the command `python main.py` or `python3 main.py`
 
 - The images provided will be resized to 500x500 and converted to webp format and saved in the 'edited-images' folder
 
+<p align=center>
 <img src="image-editor-lite-readme-edited-images.png" alt="Folder structure">
 </p>
 
@@ -27,7 +29,7 @@
 
 | **Original image** | **➡** | **Edited image** |
 | ---------------------- | ---------------------- |
-| ![Input image](images/image_two.png) | ➡ | ![Output image](edited-images/image_two.webp) |
+| ![Input image](image_two.png) | ➡ | ![Output image](image_two.webp) |
 
 <hr>
 
