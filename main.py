@@ -7,6 +7,7 @@ input_folder = "images"
 output_folder = "edited-images"
 
 if __name__ == "__main__":
+    total =0
     for file in files:
         if not file.endswith(".avif"):
             input_path = os.path.join(input_folder, file)
@@ -15,9 +16,7 @@ if __name__ == "__main__":
             current_image = Image.open(input_path)
             current_image = current_image.resize((500, 500))
 
-            output_path_avif = (os.path.splitext(output_path))[0] + ".webp"  # creates tuple with file name & extension
-            current_image.save(output_path_avif, format="webp")
-
-
-
-
+            output_path = (os.path.splitext(output_path))[0] + ".webp"
+            current_image.save(output_path, format="webp")
+            total+=1
+    print(f"{total} images edited")
